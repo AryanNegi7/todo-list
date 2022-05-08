@@ -1,0 +1,14 @@
+.title{
+    height: 5rem;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.title>strong{
+    height: 2rem;
+}
+.title>input{
+    height: 2rem;
+    border-radius: 11px;
+}
