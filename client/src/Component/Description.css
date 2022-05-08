@@ -1,7 +1,7 @@
 .desc{
     height: 8rem;
-    width: 100%;
-    background-color: chartreuse;
+    /* width: 100%; */
+    background-color: #191816;
     display: flex;
     flex-direction: column;
 }
@@ -11,4 +11,5 @@
 .desc>textarea{
     height: 4rem;
     border-radius: 11px;
+    background-color: #3b3b3b;
 }

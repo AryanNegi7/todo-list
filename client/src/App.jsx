@@ -5,11 +5,13 @@ import Header from './Component/Header'
 import Content from './Component/Content'
 import Display from './Component/Display'
 function App() {
+  const [onsubmit, setOnsubmit] = useState('false');
+  const [data, setData] = useState([]);
   return (
     <div className="App">
       <Header />
-      <Content />
-      <Display />
+      <Content onsubmit={onsubmit} setOnsubmit={setOnsubmit} data={data} setData={setData} />
+      <Display onsubmit={onsubmit} setOnsubmit={setOnsubmit} data={data} setData={setData} />
     </div>  
   )
 }
